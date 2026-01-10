@@ -1,106 +1,11 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MatchaBerry Calculus Cafe</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.8.0/math.js"></script>
-    <script src="https://cdn.plot.ly/plotly-2.24.1.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --matcha: #A8C69F;
-            --matcha-soft: #F1F8F1;
-            --strawberry: #FFD1DC;
-            --strawberry-vibrant: #FFB7C5;
-            --cream: #FFFDFB;
-            --text-main: #4A5A4B;
-        }
-        body {
-            font-family: 'Quicksand', sans-serif;
-            background-color: var(--cream);
-            color: var(--text-main);
-            margin: 0;
-            overflow-x: hidden;
-        }
-        .math-font {
-            font-family: 'Fira Code', monospace;
-        }
-        .matcha-bg { background-color: var(--matcha); }
-        .strawberry-bg { background-color: var(--strawberry); }
-        .strawberry-text { color: var(--strawberry-vibrant); }
-        
-        .floating {
-            animation: float 5s ease-in-out infinite;
-        }
-        @keyframes float {
-            0%, 100% { transform: translateY(0px) rotate(0deg); }
-            50% { transform: translateY(-12px) rotate(2deg); }
-        }
-
-        .cafe-bubble {
-            background: white;
-            border-radius: 2.5rem;
-            box-shadow: 0 10px 30px -10px rgba(168, 198, 159, 0.2);
-            border: 3px solid rgba(168, 198, 159, 0.1);
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        }
-        .cafe-bubble:hover {
-            border-color: var(--strawberry);
-            transform: translateY(-5px);
-        }
-
-        .app-card-pastel {
-            background: white;
-            border-radius: 1.5rem;
-            padding: 1.5rem;
-            border: 2px solid;
-            transition: all 0.3s ease;
-        }
-        .app-card-pastel:hover {
-            transform: scale(1.02);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.05);
-        }
-
-        .analysis-content h4 {
-            font-weight: 800;
-            color: var(--matcha);
-            margin-bottom: 0.5rem;
-            text-transform: uppercase;
-            font-size: 0.75rem;
-            letter-spacing: 0.1em;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-        .analysis-content b {
-            color: var(--strawberry-vibrant);
-        }
-
-        ::-webkit-scrollbar { width: 10px; }
-        ::-webkit-scrollbar-track { background: var(--cream); }
-        ::-webkit-scrollbar-thumb {
-            background: var(--matcha);
-            border-radius: 10px;
-            border: 3px solid var(--cream);
-        }
-    </style>
-<script type="importmap">
-{
-  "imports": {
-    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
-    "@google/genai": "https://esm.sh/@google/genai@^1.35.0",
-    "react/": "https://esm.sh/react@^19.2.3/",
-    "react": "https://esm.sh/react@^19.2.3",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-    "recharts": "https://esm.sh/recharts@^3.6.0"
-  }
-}
-</script>
+  <meta charset="UTF-8">
+  <title>MatchaBerry Cafe</title>
 </head>
 <body>
-    <div id="root"></div>
+  <h1>🍵 MatchaBerry Cafe</h1>
+  <p>This page is live!</p>
 </body>
 </html>
