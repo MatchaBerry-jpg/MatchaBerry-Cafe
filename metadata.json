@@ -1,0 +1,7 @@
+{
+  "name": "Copy of MatchaBerry Calculus Cafe",
+  "description": "A delightful 3D mathematical space for exploring partial and directional derivatives with AI chef insights.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
